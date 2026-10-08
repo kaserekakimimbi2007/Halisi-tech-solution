@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>halisi_TECH_SOLUTION — Réparation et maintenance à Butembo, RDC</title>
+<meta name="description" content="halisi_TECH_SOLUTION, atelier à Butembo (RDC) : diagnostic, réparation et maintenance de smartphones et d'ordinateurs, assistance technique.">
+<meta name="theme-color" content="#05070d">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Icônes réutilisables -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.200-1.600-1.200-3s.7-2.100 1-2.400c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 2c.1.200.1.300 0 .5l-.3.400-.4.400c-.1.100-.3.300-.1.600.2.300.7 1.200 1.500 1.900 1 .9 1.900 1.200 2.200 1.300.3.100.4.100.6-.1l.8-1c.2-.3.400-.2.600-.1l1.900.9c.3.100.5.200.5.300.1.200.1.800-.1 1.400z"/></symbol>
+<symbol id="i-fb" viewBox="0 0 24 24"><path fill="currentColor" d="M14 8V6.500c0-.7.200-1 1.200-1H17V2h-2.700C11.300 2 10 3.700 10 6v2H8v3.500h2V22h4v-10.500h2.600L17 8z"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.500 7-12a7 7 0 0 0-14 0c0 5.500 7 12 7 12z"/><circle cx="12" cy="10" r="2.500"/></g></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></g></symbol>
+<symbol id="i-diag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-5-5M8 11h6M11 8v6"/></g></symbol>
+<symbol id="i-tool" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.500 6.500a4 4 0 0 0-5 5L3 18l3 3 6.500-6.500a4 4 0 0 0 5-5l-2.500 2.500-2.500-.5-.5-2.500z"/></g></symbol>
+<symbol id="i-code" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></g></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></g></symbol>
+<symbol id="i-db" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.700 3.600 3 8 3s8-1.300 8-3V5M4 12c0 1.700 3.600 3 8 3s8-1.300 8-3"/></g></symbol>
+<symbol id="i-pc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></g></symbol>
+<symbol id="i-help" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.500 9a2.500 2.500 0 1 1 3.500 2.300c-.7.4-1 .9-1 1.700M12 17h.01"/></g></symbol>
+<symbol id="i-bolt" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></g></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.500 7.200L3 21l1.800-6A8 8 0 1 1 21 12z"/></g></symbol>
+<symbol id="i-img" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></g></symbol>
+</svg>
+
+<a class="skip" href="#services">Aller au contenu</a>
+
+<header class="header" id="header">
+  <div class="container nav">
+    <a href="#accueil" class="logo" aria-label="halisi_TECH_SOLUTION - accueil"><span>halisi</span>_<b>TECH</b>_SOLUTION</a>
+    <nav id="menu" class="menu" aria-label="Navigation principale">
+      <a href="#accueil">Accueil</a>
+      <a href="#services">Services</a>
+      <a href="#apropos">À propos</a>
+      <a href="#processus">Processus</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-wa btn-sm" data-wa href="#" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="accueil">
+  <div class="container hero-grid">
+    <div class="hero-text reveal">
+      <p class="slogan">Solutions technologiques • Réparation • Maintenance • Assistance</p>
+      <h1>halisi_TECH_SOLUTION</h1>
+      <p class="sub">Votre partenaire pour les solutions technologiques</p>
+      <p class="lead">Nous vous accompagnons pour la réparation, la maintenance, le diagnostic et les problèmes logiciels de vos appareils.</p>
+      <div class="cta">
+        <a class="btn btn-primary" data-wa-help href="#" target="_blank" rel="noopener">Demander une assistance</a>
+        <a class="btn btn-wa" data-wa href="#" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg>WhatsApp : 0990816740</a>
+      </div>
+    </div>
+    <div class="hero-art reveal" aria-hidden="true">
+      <svg viewBox="0 0 320 380" fill="none">
+        <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f7bff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
+        <rect x="85" y="20" width="150" height="300" rx="26" fill="#0a0f1d" stroke="url(#g)" stroke-width="3"/>
+        <rect x="97" y="48" width="126" height="240" rx="10" fill="#0d1630"/>
+        <rect x="132" y="30" width="56" height="8" rx="4" fill="#1b2750"/>
+        <circle cx="160" cy="130" r="34" stroke="#22d3ee" stroke-width="3"/>
+        <path d="M143 130l12 12 22-24" stroke="#22d3ee" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="115" y="190" width="90" height="8" rx="4" fill="#2f7bff" opacity=".7"/>
+        <rect x="125" y="210" width="70" height="8" rx="4" fill="#8b5cf6" opacity=".7"/>
+        <rect x="115" y="230" width="90" height="8" rx="4" fill="#1b2750"/>
+        <g class="orbit" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M270 250l-60 60M282 238a14 14 0 1 0 20 20l-10-10 6-6-10-10z"/></g>
+        <g stroke="#8b5cf6" stroke-width="3" stroke-linecap="round"><path d="M40 290l50-50"/><circle cx="36" cy="294" r="9"/></g>
+        <g stroke="#2f7bff" stroke-width="2.500" stroke-linecap="round"><path d="M40 90h28v-20M40 120h50M290 100h-34v30M290 160h-50"/></g>
+        <circle cx="68" cy="70" r="5" fill="#22d3ee"/><circle cx="256" cy="130" r="5" fill="#22d3ee"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <div class="sec-head reveal"><h2>Nos services</h2><p>Du diagnostic à la réparation, nous prenons en charge vos appareils.</p></div>
+    <div class="grid">
+      <article class="card reveal"><div class="icon"><svg><use href="#i-diag"/></svg></div><h3>Diagnostic smartphone</h3><p>Analyse des problèmes matériels et logiciels.</p></article>
+      <article class="card reveal"><div class="icon"><svg><use href="#i-phone"/></svg></div><h3>Réparation Android</h3><p>Maintenance et réparation des smartphones Android.</p></article>
+      <article class="card reveal"><div class="icon"><svg><use href="#i-code"/></svg></div><h3>Maintenance logicielle</h3><p>Installation, restauration, mise à jour et résolution des problèmes logiciels.</p></article>
+      <article class="card reveal"><div class="icon"><svg><use href="#i-lock"/></svg></div><h3>Assistance appareils verrouillés</h3><p>Assistance pour les appareils appartenant légalement au client ou pour lesquels il dispose d'une autorisation.</p></article>
+      <article class="card reveal"><div class="icon"><svg><use href="#i-db"/></svg></div><h3>Récupération de données</h3><p>Assistance pour sauvegarder et récupérer les données lorsque cela est techniquement possible.</p></article>
+      <article class="card reveal"><div class="icon"><svg><use href="#i-pc"/></svg></div><h3>Maintenance informatique</h3><p>Diagnostic, dépannage et optimisation des ordinateurs.</p></article>
+      <article class="card reveal"><div class="icon"><svg><use href="#i-help"/></svg></div><h3>Assistance technique</h3><p>Conseils et accompagnement personnalisés.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="apropos">
+  <div class="container about">
+    <div class="reveal">
+      <h2>À propos de halisi_TECH_SOLUTION</h2>
+      <p>halisi_TECH_SOLUTION est un atelier installé à Butembo, en RDC. Nous proposons des solutions technologiques et de maintenance adaptées aux besoins des clients de la ville : smartphones, ordinateurs et assistance du quotidien.</p>
+      <p>Chaque appareil est analysé avant toute intervention. Vous savez ce qui ne va pas, ce que nous proposons et combien cela coûte avant que nous commencions.</p>
+    </div>
+    <ul class="values reveal">
+      <li><b>Professionnalisme</b> Un travail soigné sur chaque appareil.</li>
+      <li><b>Diagnostic</b> Nous cherchons la vraie cause de la panne.</li>
+      <li><b>Rapidité</b> Une prise en charge sans attente inutile.</li>
+      <li><b>Accompagnement</b> Nous restons joignables avant et après.</li>
+      <li><b>Transparence</b> Devis expliqué avant l'intervention.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="pourquoi">
+  <div class="container">
+    <div class="sec-head reveal"><h2>Pourquoi nous choisir ?</h2></div>
+    <div class="grid grid-4">
+      <article class="card center reveal"><div class="icon"><svg><use href="#i-diag"/></svg></div><h3>Diagnostic professionnel</h3><p>Une analyse sérieuse avant toute intervention.</p></article>
+      <article class="card center reveal"><div class="icon"><svg><use href="#i-tool"/></svg></div><h3>Solutions adaptées</h3><p>Une réponse pensée pour votre appareil et votre besoin.</p></article>
+      <article class="card center reveal"><div class="icon"><svg><use href="#i-bolt"/></svg></div><h3>Service rapide</h3><p>Une prise en charge efficace de votre demande.</p></article>
+      <article class="card center reveal"><div class="icon"><svg><use href="#i-chat"/></svg></div><h3>Assistance client</h3><p>Une équipe à l'écoute par WhatsApp ou téléphone.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="processus">
+  <div class="container">
+    <div class="sec-head reveal"><h2>Comment ça marche ?</h2><p>Aucune intervention sans votre accord.</p></div>
+    <ol class="steps">
+      <li class="card reveal"><span class="num">01</span><div><h3>Contactez-nous</h3><p>Contact via WhatsApp ou téléphone.</p></div></li>
+      <li class="card reveal"><span class="num">02</span><div><h3>Expliquez votre problème</h3><p>Décrivez le problème rencontré avec votre appareil.</p></div></li>
+      <li class="card reveal"><span class="num">03</span><div><h3>Diagnostic</h3><p>Nous analysons l'appareil.</p></div></li>
+      <li class="card reveal"><span class="num">04</span><div><h3>Devis</h3><p>Nous vous expliquons la solution et le coût avant intervention.</p></div></li>
+      <li class="card reveal"><span class="num">05</span><div><h3>Intervention</h3><p>L'intervention est effectuée après votre accord.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section" id="tarifs">
+  <div class="container">
+    <div class="sec-head reveal"><h2>Nos tarifs</h2><p>Chaque appareil est différent : le prix est établi après analyse.</p></div>
+    <div class="grid grid-4">
+      <article class="card center reveal"><h3>Diagnostic</h3><p class="price">Sur devis</p></article>
+      <article class="card center reveal"><h3>Maintenance logicielle</h3><p class="price">Sur devis</p></article>
+      <article class="card center reveal"><h3>Réparation</h3><p class="price">Selon intervention</p></article>
+      <article class="card center reveal"><h3>Assistance technique</h3><p class="price">Sur devis</p></article>
+    </div>
+    <p class="center-btn reveal"><a class="btn btn-wa" data-wa-quote href="#" target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg>Demander un devis sur WhatsApp</a></p>
+  </div>
+</section>
+
+<section class="section alt" id="atelier">
+  <div class="container">
+    <div class="sec-head reveal"><h2>Notre atelier</h2><p>Photos à venir. Remplacez les emplacements ci-dessous (voir le commentaire dans ce fichier).</p></div>
+    <!-- GALERIE : pour ajouter une photo, remplacez le contenu d'un <figure> par
+         <img src="images/ma-photo.jpg" alt="Description de la photo" loading="lazy"> -->
+    <div class="gallery">
+      <figure class="shot reveal"><svg class="ic"><use href="#i-img"/></svg><figcaption>Espace de réparation</figcaption></figure>
+      <figure class="shot reveal"><svg class="ic"><use href="#i-img"/></svg><figcaption>Outils et matériel</figcaption></figure>
+      <figure class="shot reveal"><svg class="ic"><use href="#i-img"/></svg><figcaption>Diagnostic en cours</figcaption></figure>
+      <figure class="shot reveal"><svg class="ic"><use href="#i-img"/></svg><figcaption>Accueil des clients</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container">
+    <div class="sec-head reveal"><h2>Contactez-nous</h2><p>Écrivez-nous, nous vous répondons rapidement.</p></div>
+    <div class="contact-grid">
+      <div class="card contact-info reveal">
+        <a href="tel:+243990816740"><span class="icon"><svg><use href="#i-phone"/></svg></span><span><small>WhatsApp / Téléphone</small>0990816740</span></a>
+        <a data-fb href="#" target="_blank" rel="noopener"><span class="icon"><svg><use href="#i-fb"/></svg></span><span><small>Facebook</small>halisi tech solution</span></a>
+        <div><span class="icon"><svg><use href="#i-pin"/></svg></span><span><small>Adresse</small>Butembo, RDC<br>Quartier Bwinongo<br>Cellule Vukaka<br>Rond-point Vukaka</span></div>
+        <a class="btn btn-fb" data-fb href="#" target="_blank" rel="noopener"><svg class="ic"><use href="#i-fb"/></svg>Suivez-nous sur Facebook</a>
+        <div class="map" data-map>
+          <svg class="ic"><use href="#i-pin"/></svg>
+          <p>Emplacement Google Maps à ajouter</p>
+          <a class="btn btn-ghost btn-sm" data-map-link href="#" target="_blank" rel="noopener">Rechercher sur Google Maps</a>
+        </div>
+      </div>
+      <form class="card reveal" id="form" novalidate>
+        <label for="nom">Nom</label>
+        <input id="nom" name="nom" autocomplete="name" required>
+        <p class="err" data-err="nom"></p>
+        <label for="tel">Téléphone</label>
+        <input id="tel" name="tel" type="tel" autocomplete="tel" inputmode="tel" required>
+        <p class="err" data-err="tel"></p>
+        <label for="service">Service souhaité</label>
+        <select id="service" name="service" required>
+          <option value="">Choisir un service</option>
+          <option>Diagnostic smartphone</option>
+          <option>Réparation Android</option>
+          <option>Maintenance logicielle</option>
+          <option>Assistance appareils verrouillés</option>
+          <option>Récupération de données</option>
+          <option>Maintenance informatique</option>
+          <option>Assistance technique</option>
+        </select>
+        <p class="err" data-err="service"></p>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Modèle de l'appareil, problème rencontré…" required></textarea>
+        <p class="err" data-err="message"></p>
+        <button class="btn btn-primary" type="submit">Envoyer la demande</button>
+        <p class="hint" id="hint" role="status" aria-live="polite">La demande s'ouvre dans WhatsApp, prête à être envoyée.</p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container foot-grid">
+    <div>
+      <div class="logo"><span>halisi</span>_<b>TECH</b>_SOLUTION</div>
+      <p>Solutions technologiques • Réparation • Maintenance • Assistance</p>
+      <p>Butembo, RDC — Quartier Bwinongo, Cellule Vukaka, Rond-point Vukaka</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p><a href="tel:+243990816740">0990816740</a></p>
+      <p><a data-fb href="#" target="_blank" rel="noopener">Facebook : halisi tech solution</a></p>
+    </div>
+    <div>
+      <h4>Liens</h4>
+      <p><a href="#accueil">Accueil</a></p>
+      <p><a href="#services">Services</a></p>
+      <p><a href="#apropos">À propos</a></p>
+      <p><a href="#contact">Contact</a></p>
+    </div>
+  </div>
+  <p class="copy">© 2026 halisi_TECH_SOLUTION — Tous droits réservés.</p>
+</footer>
+
+<a class="wa-float" data-wa href="https://wa.me/243990816740" target="_blank" rel="noopener" aria-label="Écrire sur WhatsApp"><svg class="ic"><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+<button class="to-top" id="toTop" aria-label="Retour en haut" hidden>↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
